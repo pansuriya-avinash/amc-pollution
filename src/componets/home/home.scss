@@ -1,0 +1,110 @@
+.home-tittle-wrapper {
+  //   border: 1px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #57bf9c;
+  h1 {
+    font-size: 30px;
+    padding: 10px;
+    color: #000600;
+  }
+}
+.card {
+  margin-top: 10px;
+  .card-search {
+    .form-outline{
+        text-align: end;
+        margin-top: 20px;
+    }
+    .search-btn {
+      border: 1px solid #ffff;
+      border-radius: 5px;
+      margin-left: 5px;
+      padding: 5px;
+    }
+    .search-input {
+      border: 1px solid #ffff;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .card-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card-div {
+        padding: 20px;
+      }
+      .card-wrapper {
+        background-color: #aab8b3;
+        border-radius: 20px;
+        padding: 10px 20px;
+        width: 500px;
+        height: 325px;
+
+        .card-header {
+          .card-tittle {
+            font-size: 20px;
+            font-weight: 400;
+            color: #000600;
+            margin: 0;
+          }
+          .card-icon {
+            border-radius: 50%;
+            background-color: #000600;
+            width: 30px;
+            height: 30px;
+          }
+        }
+        .sensor-location {
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #000600;
+            margin-right: 10px;
+          }
+        }
+        .card-description-wrapper {
+          margin: 20px 0;
+          .card-description {
+            border-radius: 20px;
+            background-color: #909f98;
+            margin: 5px 0;
+            padding: 8px 15px;
+            h6,
+            sub {
+              margin: 0;
+              font-size: 14px;
+              font-weight: 400;
+              color: #000600;
+            }
+            p {
+              font-size: 14px;
+              font-weight: 600;
+              color: #000600;
+            }
+          }
+          .card-red {
+            background-color: #ff0000ad;
+            h6,
+            p,
+            sub {
+              color: #fff;
+            }
+          }
+          .card-yello {
+            background-color: #ffff007a;
+          }
+          .card-green {
+            background-color: #008000a8;
+            h6,
+            p,
+            sub {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
